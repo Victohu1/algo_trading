@@ -16,6 +16,7 @@ If there is an permission error, change the execution policy with: Set-Execution
 
 ---
 ## Project Structure
+```bash
 algo_trading/
 │── strategies/                # Trading strategy modules
 │   ├── ML_models/             # Machine learning models
@@ -23,6 +24,7 @@ algo_trading/
 │── tradingbot/                # Trading bot implementation
 │   ├── notebooks/             # Jupyter notebooks for testing
 │   │   ├── trading_bot.ipynb  # Trading bot design notebook
-|   |── trading_bot.py         # Trading bot
+│   ├── trading_bot.py         # Trading bot
 │── requirements.txt           # Project dependencies
 │── README.md                  # Project documentation
+```
